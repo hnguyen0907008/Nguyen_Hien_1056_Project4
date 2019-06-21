@@ -1,0 +1,81 @@
+h1
+{
+	text-align: center;
+}
+
+h2
+{
+	display: none;
+}
+
+.col3, .col4
+{
+	display: none;
+}
+
+.col1
+{
+	background-color: pink;
+	width: 50%;
+
+}
+
+.col2
+{
+	background-color: red;
+	width: 50%;
+}
+
+section
+{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 500px;
+}
+
+@media only screen and (min-width: 641px) 
+{
+	.col3
+	{
+		background-color: grey;
+		width: 25%;
+		display: inline;
+	}
+
+	.col4
+	{
+		background-color: brown;
+		width: 25%;
+		display: inline;
+	}
+
+	.col1
+	{
+		background-color: blue;
+		width: 25%;
+
+	}
+
+	.col2
+	{
+		background-color: purple;
+		width: 25%;
+	}
+
+	section
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (min-width: 1140px)
+{
+	section
+	{
+		width: 1140px;
+		margin: 0 auto;
+	}
+}
+
